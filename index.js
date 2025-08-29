@@ -98,7 +98,7 @@ app.post('/bfhl', (req, res) => {
     }
 });
 
-app.get('/bfhl', (req, res) => {
+app.get('/', (req, res) => {
     res.send('BFHL API is running.');
 });
 
